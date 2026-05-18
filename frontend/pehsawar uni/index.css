@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap');
 
 :root {
   --gold: #C9A84C;
@@ -12,15 +12,6 @@
   --slate-bg: #0B1220;
   --card-bg: #111827;
   --border: rgba(201, 168, 76, 0.2);
-}
-
-html {
-  font-size: 14px;
-  scroll-behavior: smooth;
-}
-
-@media (min-width: 1280px) {
-  html { font-size: 15px; }
 }
 
 * {
